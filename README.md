@@ -51,11 +51,11 @@ This principle underlies:
 ```
 causal-ml-demos
 │
-├── 1. search
-│   └── 1.1 Toy Search (A* planning demo)
+├── search
+│   └── toy_search
 │
-├── 2. Probability
-│   └── 2.1 Law of Large Numbers (LLN Simulation)
+├── probability
+│   └── lln_demo
 │
 └── README.md
 ```
