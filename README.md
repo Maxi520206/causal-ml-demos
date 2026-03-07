@@ -3,6 +3,10 @@
 This repository contains small demos illustrating fundamental concepts behind
 causal machine learning and statistical learning.
 
+This repository is part of an ongoing exploration of **causal machine learning
+and causal NLP**, focusing on how models behave under **distribution shift**
+and **spurious correlations**. 
+
 The goal of this repository is to build intuition through **minimal runnable
 experiments** that connect:
 
@@ -22,6 +26,7 @@ reproducible example.
 ## Search
 
 ### toy_search
+[`search/toy_search`](search/toy_search)
 A small A* search demo illustrating planning under fixed world assumptions and
 how such systems may fail under mechanism shift.
 
@@ -30,7 +35,7 @@ how such systems may fail under mechanism shift.
 ## Probability
 
 ### Law of Large Numbers
-
+[`probability/lln_demo`](probability/lln_demo)
 A simulation illustrating how empirical averages converge to the true
 expectation as the number of samples increases.
 
@@ -43,15 +48,17 @@ This principle underlies:
 ---
 
 # Repository Structure
+```
 causal-ml-demos
 │
 ├── search
-│ └── toy_search
+│   └── toy_search
 │
 ├── probability
-│ └── lln_demo
+│   └── lln_demo
 │
 └── README.md
+```
 
 ---
 
