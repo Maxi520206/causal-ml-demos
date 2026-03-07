@@ -23,18 +23,18 @@ reproducible example.
 
 # Demos
 
-## Search
+## 1.Search
 
-### toy_search
+### 1.1 Toy Search (A* planning demo)
 [`search/toy_search`](search/toy_search)
 A small A* search demo illustrating planning under fixed world assumptions and
 how such systems may fail under mechanism shift.
 
 ---
 
-## Probability
+## 2.Probability
 
-### Law of Large Numbers
+### 2.1 Law of Large Numbers
 [`probability/lln_demo`](probability/lln_demo)
 A simulation illustrating how empirical averages converge to the true
 expectation as the number of samples increases.
