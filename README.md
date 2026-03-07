@@ -23,7 +23,7 @@ reproducible example.
 
 # Demos
 
-## 1.Search
+## 1. Search
 
 ### 1.1 Toy Search (A* planning demo)
 [`search/toy_search`](search/toy_search)
@@ -32,9 +32,9 @@ how such systems may fail under mechanism shift.
 
 ---
 
-## 2.Probability
+## 2. Probability
 
-### 2.1 Law of Large Numbers
+### 2.1 Law of Large Numbers (LLN Simulation)
 [`probability/lln_demo`](probability/lln_demo)
 A simulation illustrating how empirical averages converge to the true
 expectation as the number of samples increases.
@@ -51,11 +51,11 @@ This principle underlies:
 ```
 causal-ml-demos
 │
-├── search
-│   └── toy_search
+├── 1. search
+│   └── 1.1 Toy Search (A* planning demo)
 │
-├── probability
-│   └── lln_demo
+├── 2. Probability
+│   └── 2.1 Law of Large Numbers (LLN Simulation)
 │
 └── README.md
 ```
