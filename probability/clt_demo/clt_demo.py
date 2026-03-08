@@ -20,5 +20,6 @@ if __name__ == "__main__":
     plt.xlabel("Sample Mean")
     plt.ylabel("Density")
 
-    plt.show()
     plt.savefig("clt_simulation.png")
+    plt.show()
+    
