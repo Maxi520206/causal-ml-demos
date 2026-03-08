@@ -15,5 +15,8 @@ of the estimator.
 
 ## Run
 
+## Result
+
+![Bootstrap CI](bootstrap_ci.png)
 ```bash
 python bootstrap_ci_demo.py
