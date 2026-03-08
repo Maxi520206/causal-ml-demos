@@ -45,6 +45,9 @@ This principle underlies:
 - empirical risk minimization
 - machine learning training procedures
 
+### 2.2 Central Limit Theorem (CLT Simulation)
+
+### 2.3 Bootstrap Confidence Intervals
 ---
 
 # Repository Structure
@@ -55,7 +58,9 @@ causal-ml-demos
 │   └── toy_search
 │
 ├── probability
-│   └── lln_demo
+│   ├── lln_demo
+│   ├── clt_demo
+│   └── bootstrap_ci_demo
 │
 └── README.md
 ```
