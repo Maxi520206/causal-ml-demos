@@ -22,3 +22,4 @@ and observe how the distribution of the sample mean
 approaches a Gaussian.
 
 ## Run
+![CLT](clt_simulation.png)
