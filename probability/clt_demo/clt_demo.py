@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def simulate_clt(n_samples=1000, sample_size=30):
+def simulate_clt(sample_size, n_samples=1000):
     means = []
 
     for _ in range(n_samples):
@@ -13,13 +13,23 @@ def simulate_clt(n_samples=1000, sample_size=30):
 
 
 if __name__ == "__main__":
-    means = simulate_clt()
 
-    plt.hist(means, bins=40, density=True)
-    plt.title("Central Limit Theorem Simulation")
-    plt.xlabel("Sample Mean")
-    plt.ylabel("Density")
+    sample_sizes = [1, 10, 30]
+
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4))
+
+    for ax, n in zip(axes, sample_sizes):
+        means = simulate_clt(sample_size=n)
+
+        ax.hist(means, bins=40, density=True)
+        ax.set_title(f"Sample size = {n}")
+        ax.set_xlabel("Sample mean")
+        ax.set_ylabel("Density")
+
+    plt.suptitle("Central Limit Theorem Simulation")
+
+    plt.tight_layout()
 
     plt.savefig("clt_simulation.png")
+
     plt.show()
-    
