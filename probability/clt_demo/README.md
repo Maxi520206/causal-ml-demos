@@ -29,4 +29,3 @@ The distribution of the sample mean becomes increasingly
 normal as the sample size grows.
 
 ![CLT](clt_simulation.png)
-![CLT](clt_simulation.png)
