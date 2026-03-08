@@ -50,8 +50,9 @@ This principle underlies:
 A simulation showing how the distribution of the sample mean approaches a normal distribution as the sample size increases.
 
 ### 2.3 Bootstrap Confidence Intervals
-[bootstrap_ci_demo](./probability/bootstrap_ci_demo/) 
+[`bootstrap_ci_demo`](./probability/bootstrap_ci_demo/) 
 A simulation illustrating how bootstrap resampling approximates the sampling distribution of an estimator and enables confidence interval estimation.
+
 ---
 
 # Repository Structure
