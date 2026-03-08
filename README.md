@@ -46,6 +46,8 @@ This principle underlies:
 - machine learning training procedures
 
 ### 2.2 Central Limit Theorem (CLT Simulation)
+[probability/clt_demo](probability/clt_demo) 
+A simulation showing how the distribution of the sample mean approaches a normal distribution as the sample size increases.
 
 ### 2.3 Bootstrap Confidence Intervals
 ---
